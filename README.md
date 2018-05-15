@@ -1,28 +1,40 @@
-# Awesome SLAM Dataset List
+# Awesome SLAM Datasets
 
 This repository is the collection of SLAM-related datasets. Among various SLAM datasets, we've selected the datasets provide pose and map information.
 
 We provide several category for each access of the data.
 
 ## TODO
-This repository is currently working on.
-Target category and project page will be on next.
+Need to build up project page.
 
 
-## Caetegory
+## Category
+- [Topic](#categorized-by-topic)
+  - [Odometry](#odometry): Dataset for odometry Benchmark
+  - [Mapping](#mapping): Dataset for mapping task
+  - [Place Recognition](#place-recognition): Dataset gives correspondences of places (images)
+  - [Localization](#localization): Dataset for metric-level localization
+  - [Perception](#perception): Dataset with semantic labels / correspondences
+
+- [Characteristics](#categorized-by-characteristics)
+  - [Large-scale](#large-scale): City-scale map, kilometer level Map
+  - [Long-term](#long-term): Multi-session, long-term data collection
+  - [Map Complexity](#map-complexity): Variation of mapping structures
+  - [Extreme Condition](#extreme-condition): Extreme environment, motions
+
 - [Platform](#categorized-by-platform)
     - [Vehicle (Veh)](#vehicle): Commercial Vehicle (Four-wheeled on the road)
     - [Mobile robot (Mob)](#mobile-robot): Mobile Robots (Ex. Husky, Rover.. )
-    - [Unmanned Aerial Vehicle (UAV)](#unmanned-aerial-vehicle): Unmanne aerial robots include drone.
+    - [Unmanned Aerial Vehicle (UAV)](#unmanned-aerial-vehicle): Unmanned aerial robots include drone.
     - [Autonomous Underwater Vehicle (AUV)](#autonomous-underwater-vehicle): Underwater robots include ROV for simplicity.
     - [Unmanned Surface Vehicle (USV)](#unmanned-surface-vehicle): Water surface vehicle such as canoe and boat.
     - [Hand-held Device (Hand)](#hand-held-device): Hand-held platform by human
 
 - [Envoriment](#categorized-by-platform)
     - [Urban](#urban): City, campus, town, and infrastructures
-    - [Indoor](#indoor): Indoor environement
+    - [Indoor](#indoor): Indoor environment
     - [Terrain](#terrain): Rough terrain, underground, lake and farm
-    - [Underwater](#underwater): Underwater
+    - [Underwater](#underwater): Underwater floor, cave
 
 ## Overall datasets chart (Simplified Version)
 
@@ -80,10 +92,108 @@ Target category and project page will be on next.
 | [FABMAP](http://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/)                                          | Oxford-Robot | 2008 | Veh        | IJRR        | Urban                 |         |        |     | O   |        |            | O       |      |       |       |       |     |                         |
 
 
+## Categorized By Topic
+
+### Odometry
+_Dataset for odometry Benchmark_
+- [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
+- [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
+- [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
+- [Zurich Urban Micro Aerial Vehicle Dataset](http://rpg.ifi.uzh.ch/zurichmavdataset.html)
+- [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
+- [TUM Monocular Cameras Dataset](https://vision.in.tum.de/data/datasets/mono-dataset)
+- [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
+- [TUM Omnidirectional Cameras Dataset](https://vision.in.tum.de/data/datasets/omni-lsdslam)
+- [ICL-NUIM RGBD Dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
+- [TUM RGB-D SLAM Dataset and Benchmark](https://vision.in.tum.de/data/datasets/rgbd-dataset)
+
+### Mapping
+_Dataset for mapping task_
+- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
+- [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
+- [Oxford Robotcar Dataset](http://robotcar-dataset.robots.ox.ac.uk/)
+- [University of Michigan North Campus Long-Term (NCLT) Vision and LIDAR Dataset](http://robots.engin.umich.edu/nclt/)
+- [Málaga Stereo and Laser Urban Data Set](https://www.mrpt.org/MalagaUrbanDataset)
+- [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
+- [Challenging data sets for point cloud registration algorithms](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)
+- [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
+- [Ford Campus Vision and Lidar Dataset](http://robots.engin.umich.edu/SoftwareData/Ford)
+
+### Place Recognition
+_Dataset gives correspondences of places (images)_
+- [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
+- [Symphony Lake Dataset](http://dream.georgiatech-metz.fr/?q=node/79)
+- [Alderley Day/Night Dataset](https://wiki.qut.edu.au/pages/viewpage.action?pageId=181178395)
+- [St Lucia Multiple Times of Day](https://wiki.qut.edu.au/display/cyphy/St+Lucia+Multiple+Times+of+Day)
+- [New College Vision and Laser Data Set](http://www.robots.ox.ac.uk/NewCollegeData/)
+- [FABMAP Dataset](http://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/)
+
+### Localization
+_Dataset for metric-level localization_
+- [Cambridge Landmark Dataset](http://mi.eng.cam.ac.uk/projects/relocalisation/)
+- [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
+- [Microsoft 7 scenes](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
+- [San Francisco Landmark Dataset](https://sites.google.com/site/chenmodavid/datasets)
+
+### Perception
+_Dataset with semantic labels / correspondences_
+- [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
+- [Robot @ Home Dataset](http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/203-robot-at-home-dataset)
+- [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
+- [Sugar Beets 2016, Agricultural Robot Dataset](http://www.ipb.uni-bonn.de/data/sugarbeets2016/)
+- [CityScapes Dataset](https://www.cityscapes-dataset.com/)
+- [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
+- [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/)
+
+## Categorized By Characteristics
+
+### Large-scale
+_City-scale map, kilometer level Map_
+- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [CityScapes Dataset](https://www.cityscapes-dataset.com/)
+- [Solar-powered UAV Sensing and Mapping Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=fsr2015)
+- [Oxford Robotcar Dataset](http://robotcar-dataset.robots.ox.ac.uk/)
+- [CCSAD (Stereo Urban) Dattaset](http://aplicaciones.cimat.mx/Personal/jbhayet/ccsad-dataset)
+- [Málaga Stereo and Laser Urban Data Set](https://www.mrpt.org/MalagaUrbanDataset)
+- [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
+- [Kagaru Airborn Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
+- [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
+
+### Long-term
+_Multi-session, long-term data collection_
+- [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
+- [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
+- [Symphony Lake Dataset](http://dream.georgiatech-metz.fr/?q=node/79)
+- [Oxford Robotcar Dataset](http://robotcar-dataset.robots.ox.ac.uk/)
+- [University of Michigan North Campus Long-Term (NCLT) Vision and LIDAR Dataset](http://robots.engin.umich.edu/nclt/)
+- [Alderley Day/Night Dataset](https://wiki.qut.edu.au/pages/viewpage.action?pageId=181178395)
+- [St Lucia Multiple Times of Day](https://wiki.qut.edu.au/display/cyphy/St+Lucia+Multiple+Times+of+Day)
+
+### Map Complexity
+_Variation of mapping structures_
+- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Málaga Stereo and Laser Urban Data Set](https://www.mrpt.org/MalagaUrbanDataset)
+- [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
+- [Challenging data sets for point cloud registration - algorithms](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)
+
+### Extreme Condition
+_Extreme environment, motions_
+- [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/): Underwater Environment
+- [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#): Underground Envoriment
+- [CityScapes Dataset](https://www.cityscapes-dataset.com/): Foggy Scene
+- [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets): Fast motion
+- [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/):  Smoky, dust, and Rain condition
+
 ## Categorized by Platform
 
 ### Vehicle
-
+_Commercial Vehicle (Four-wheeled on the road)_
 - [Complex Urban Dataset](http://irap.kaist.ac.kr/dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
@@ -105,6 +215,7 @@ Target category and project page will be on next.
 
 
 ### Mobile Robot
+_Mobile Robots (Ex. Husky, Rover.. )_
 - [Sugar Beets 2016, Agricultural Robot Dataset](http://www.ipb.uni-bonn.de/data/sugarbeets2016/)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
 - [Katwijk Beach Planetary Rover Dataset](https://robotics.estec.esa.int/datasets/katwijk-beach-11-2015/)
@@ -119,6 +230,7 @@ Target category and project page will be on next.
 - [New College Vision and Laser Data Set](http://www.robots.ox.ac.uk/NewCollegeData/)
 
 ### Unmanned Aerial Vehicle
+_Unmanned aerial robots include drone_
 - [Zurich Urban Micro Aerial Vehicle Dataset](http://rpg.ifi.uzh.ch/zurichmavdataset.html)
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
 - [Solar-powered UAV Sensing and Mapping Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=fsr2015)
@@ -129,16 +241,19 @@ Target category and project page will be on next.
 
 
 ### Autonomous Underwater Vehicle
+_Underwater robots include ROV for simplicity_
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 
 
 ### Unmanned Surface Vehicle
+_Water surface vehicle such as canoe and boat_
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
 - [Symphony Lake Dataset](http://dream.georgiatech-metz.fr/?q=node/79)
 
 
 ### Hand-held Device
+_Hand-held platform by human_
 - [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
 - [Comprehensive RGB-D Benchmark (CoRBS)](http://corbs.dfki.uni-kl.de/?pagerd_tumlltzzf42zsv6de7b9)
@@ -151,6 +266,7 @@ Target category and project page will be on next.
 
 ## Categorized by Environment
 ### Urban
+_City, campus, town, and infrastructures_
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
@@ -180,6 +296,7 @@ Target category and project page will be on next.
 - [FABMAP Dataset](http://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/)
 
 ### Indoor
+_Indoor environment_
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
 - [Robot @ Home Dataset](http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/203-robot-at-home-dataset)
@@ -197,6 +314,7 @@ Target category and project page will be on next.
 
 
 ### Terrain
+_Rough terrain, underground, lake and farm_
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
 - [Symphony Lake Dataset](http://dream.georgiatech-metz.fr/?q=node/79)
@@ -212,5 +330,6 @@ Target category and project page will be on next.
 
 
 ### Underwater
-- [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
+_Underwater floor, cave_
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
+- [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
