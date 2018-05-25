@@ -4,8 +4,15 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
+
 ## TODO
 Need to build up project page.
+
+## News !!
+
+In [ICRA 2018](https://icra2018.org/), two dataset papers are released!
+[Complex Urban Lidar Dataset](http://irap.kaist.ac.kr/dataset/) and [Multi Vech Event Dataset](https://daniilidis-group.github.io/mvsec/)!
+
 
 
 ## Category
