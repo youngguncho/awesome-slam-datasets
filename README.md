@@ -1,12 +1,12 @@
 # Awesome SLAM Datasets
 
-This repository is the collection of SLAM-related datasets. Among various SLAM datasets, we've selected the datasets provide pose and map information.
+This repository is the collection of SLAM-related datasets. Among various SLAM datasets, we've selected the datasets provide pose and map information. This repository is linked to the [google site](https://sites.google.com/view/awesome-slam-datasets/). In this repository, the overall dataset chart is represented as simplified version. You can use full version of the chart (made by google spreadsheet) in the [project page](https://sites.google.com/view/awesome-slam-datasets/).
 
 We provide several category for each access of the data.
 
 
 ## TODO
-Need to build up project page.
+Add thumbnail images to each category.
 
 ## News !!
 
@@ -44,6 +44,7 @@ In [ICRA 2018](https://icra2018.org/), two dataset papers are released!
     - [Underwater](#underwater): Underwater floor, cave
 
 ## Overall datasets chart (Simplified Version)
+[Link to Full version](https://sites.google.com/view/awesome-slam-datasets/)
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
