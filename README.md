@@ -1,12 +1,8 @@
-# Awesome SLAM Datasets
+# Awesome SLAM Datasets [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 This repository is the collection of SLAM-related datasets. Among various SLAM datasets, we've selected the datasets provide pose and map information. This repository is linked to the [google site](https://sites.google.com/view/awesome-slam-datasets/). In this repository, the overall dataset chart is represented as simplified version. You can use full version of the chart (made by google spreadsheet) in the [project page](https://sites.google.com/view/awesome-slam-datasets/).
 
 We provide several category for each access of the data.
-
-
-## TODO
-Add thumbnail images to each category.
 
 ## News !!
 
@@ -341,3 +337,12 @@ _Rough terrain, underground, lake and farm_
 _Underwater floor, cave_
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
+
+## Contributing
+Please Feel free to send a [pull request](https://github.com/youngguncho/awesome-slam-datasets/pulls) to modify the list or add datasets.
+
+
+## License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Younggun Cho](https://github.com/youngguncho) has waived all copyright and related or neighboring rights to this work.
