@@ -59,6 +59,7 @@ In [ICRA 2018](https://icra2018.org/), two dataset papers are released!
 | [Agricultural robot](http://www.ipb.uni-bonn.de/data/sugarbeets2016/)                                    | Bonn         | 2017 | Mob        | IJRR        | Terrain               | O       |        |     | O   | O      | O          | O       | O    |       |       |       |     | Multispectral camera    |
 | [Beach Rover](https://robotics.estec.esa.int/datasets/katwijk-beach-11-2015/)                            | TEC-MMA      | 2017 | Mob        |             | Terrain               | O       |        | O   | O   |        | O          | O       | O    |       |       |       |     | Encoder                 |
 | [EuRoC](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)                     | ETH-ASL      | 2016 | UAV        | IJRR        | Indoor                | O       | O      | O   |     |        |            | O       |      |       |       |       |     |                         |
+| [Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/data.html)                     | Google      | 2016 | Hand        | ICRA        | Indoor                |         |        | O   |     |        | O          | O       |      |       |       |       |     |                         |
 | [TUM-Mono](https://vision.in.tum.de/data/datasets/mono-dataset)                                          | TUM          | 2016 | Hand       | Arxiv       | Indoor, Urban         |         |        |     |     |        |            |         |      |       | O     |       |     | Photometric Calibration |
 | [Cityscape](https://www.cityscapes-dataset.com/)                                                         | Daimler AG   | 2016 | Veh        | CVPR        | Urban                 | O       |        |     | O   | O      |            | O       |      |       |       |       |     |                         |
 | [Solar-UAV](http://projects.asl.ethz.ch/datasets/doku.php?id=fsr2015)                                    | ETHZ         | 2016 | UAV        | CVPR        | Terrain               | O       | O      | O   | O   |        | O          |         |      |       |       |       |     |                         |
@@ -110,6 +111,7 @@ _Dataset for odometry Benchmark_
 - [TUM Omnidirectional Cameras Dataset](https://vision.in.tum.de/data/datasets/omni-lsdslam)
 - [ICL-NUIM RGBD Dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
 - [TUM RGB-D SLAM Dataset and Benchmark](https://vision.in.tum.de/data/datasets/rgbd-dataset)
+- [Google Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/data.html)
 
 ### Mapping
 _Dataset for mapping task_
@@ -140,6 +142,7 @@ _Dataset for metric-level localization_
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
 - [Microsoft 7 scenes](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
 - [San Francisco Landmark Dataset](https://sites.google.com/site/chenmodavid/datasets)
+
 
 ### Perception
 _Dataset with semantic labels / correspondences_
@@ -315,6 +318,7 @@ _Indoor environment_
 - [TUM RGB-D SLAM Dataset and Benchmark](https://vision.in.tum.de/data/datasets/rgbd-dataset)
 - [Cosy Localization Database (COLD)](https://www.pronobis.pro/#data)
 - [Rawseeds In/Outdoor Dataset](http://www.rawseeds.org/home/category/benchmarking-toolkit/datasets/)
+- [Google Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/data.html)
 
 
 ### Terrain
