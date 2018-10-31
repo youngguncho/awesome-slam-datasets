@@ -4,11 +4,9 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
-## News !!
+## News !! (Update: 2018-10-31)
 
-In [ICRA 2018](https://icra2018.org/), two dataset papers are released!
-[Complex Urban Lidar Dataset](http://irap.kaist.ac.kr/dataset/) and [Multi Vech Event Dataset](https://daniilidis-group.github.io/mvsec/)!
-
+Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/).
 
 
 ## Category
@@ -44,12 +42,12 @@ In [ICRA 2018](https://icra2018.org/), two dataset papers are released!
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
-| [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)               | Aalto U          | 2018 | Hand | ECCV                | Urban      | O | O | O |   |   |   |   | O |   |   |   |   |   |   |   | iPhone, Tango, Pixel                     |
-| [DeepIO Dataset](http://deepio.cs.ox.ac.uk/)                        | Oxford           | 2018 | Hand | Arxiv               | Indoor     | O |   | O |   |   |   |   |   |   |   |   |   |   |   |   |                                          |
-| [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/)                     | ONERA-DTIS       | 2018 | ROV  | IROS WS             | Underwater | O |   | O |   |   |   |   | O |   |   |   |   |   |   |   | Pressure Sensor                          |
-| [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php) | CONICET-UNR      | 2018 | Mob  | IJRR (Under Review) | Terrain    | O |   | O | O |   |   |   |   | O |   |   |   |   |   |   | Encoder                                  |
-| [InteriorNet](https://interiornet.org/)                             | Imperial College | 2018 | Hand | BMVC                | Indoor     | O | O | O |   | O |   |   |   | O |   | O | O |   |   |   | Texture, Lighting, Context, Optical Flow |
-| [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/)           | TUM, Karlsruhe   | 2018 | Hand | Arxiv               | Urban      | O |   | O |   |   |   |   |   | O |   |   |   |   |   |   | Plenoptic Camera                         |
+| [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)               | Aalto U          | 2018 | Hand | ECCV                | Urban      | O | O | O |   |   |   | O |   |   |   |   |   | iPhone, Tango, Pixel                     |
+| [DeepIO Dataset](http://deepio.cs.ox.ac.uk/)                        | Oxford           | 2018 | Hand | Arxiv               | Indoor     | O |   | O |   |   |   |   |   |   |   |   |   |                                          |
+| [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/)                     | ONERA-DTIS       | 2018 | ROV  | IROS WS             | Underwater | O |   | O |   |   |   | O |   |   |   |   |   | Pressure Sensor                          |
+| [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php) | CONICET-UNR      | 2018 | Mob  | IJRR (Under Review) | Terrain    | O |   | O |   |   |   | O |   |   |   |   |   | Encoder                                  |
+| [InteriorNet](https://interiornet.org/)                             | Imperial College | 2018 | Hand | BMVC                | Indoor     | O | O | O |   | O |   | O | O | O |   |   |   | Texture, Lighting, Context, Optical Flow |
+| [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/)           | TUM, Karlsruhe   | 2018 | Hand | Arxiv               | Urban      | O |   |   |   |   |   | O |   |   |   |   |   | Plenoptic Camera                         |
 | [Complex Urban](http://irap.kaist.ac.kr/dataset/)                                                        | KAIST-IRAP   | 2018 | Veh        | ICRA        | Urban                 | O       | O      | O   | O   |        | O          |         |      |       |       |       |     | Encoder                 |
 | [KAIST Day/Night](https://sites.google.com/view/multispectral/home)                                      | KAIST-RCV    | 2018 | Veh        | T-ITS       | Urban                 | O       |        | O   | O   | O      | O          | O       |      |       |       |       |     | Thermal Camera          |
 | [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)                    | TUM          | 2018 | Hand       | Arxiv       | Indoor, Urban         |         |        | O   |     |        |            |         | O    |       | O     |       |     |                         |
@@ -118,6 +116,12 @@ _Dataset for odometry Benchmark_
 - [ICL-NUIM RGBD Dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
 - [TUM RGB-D SLAM Dataset and Benchmark](https://vision.in.tum.de/data/datasets/rgbd-dataset)
 - [Google Cartographer](https://google-cartographer-ros.readthedocs.io/en/latest/data.html)
+- [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)
+- [Deep Inertial Odometry Dataset](http://deepio.cs.ox.ac.uk/)
+- [Aqualoc Underwater Dataset](http://www.lirmm.fr/aqualoc/)
+- [Rosario Agricultural Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
+- [Stereo Plenoptic Odometry Dataset](https://www.hs-karlsruhe.de/odometry-data/)
+
 
 ### Mapping
 _Dataset for mapping task_
@@ -132,6 +136,7 @@ _Dataset for mapping task_
 - [Challenging data sets for point cloud registration algorithms](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 - [Ford Campus Vision and Lidar Dataset](http://robots.engin.umich.edu/SoftwareData/Ford)
+- [InteriorNet](https://interiornet.org/)
 
 ### Place Recognition
 _Dataset gives correspondences of places (images)_
@@ -159,6 +164,7 @@ _Dataset with semantic labels / correspondences_
 - [CityScapes Dataset](https://www.cityscapes-dataset.com/)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
 - [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/)
+- [InteriorNet](https://interiornet.org/)
 
 ## Categorized By Characteristics
 
@@ -229,6 +235,7 @@ _Commercial Vehicle (Four-wheeled on the road)_
 
 ### Mobile Robot
 _Mobile Robots (Ex. Husky, Rover.. )_
+- [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
 - [Sugar Beets 2016, Agricultural Robot Dataset](http://www.ipb.uni-bonn.de/data/sugarbeets2016/)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
 - [Katwijk Beach Planetary Rover Dataset](https://robotics.estec.esa.int/datasets/katwijk-beach-11-2015/)
@@ -255,6 +262,7 @@ _Unmanned aerial robots include drone_
 
 ### Autonomous Underwater Vehicle
 _Underwater robots include ROV for simplicity_
+- [Aqualoc Underwater Dataset](http://www.lirmm.fr/aqualoc/)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 
@@ -274,12 +282,16 @@ _Hand-held platform by human_
 - [ICL-NUIM RGBD Dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
 - [Challenging data sets for point cloud registration algorithms](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)
 - [Cosy Localization Database (COLD)](https://www.pronobis.pro/#data)
-
-
+- [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)
+- [Deep Inertial Odometry Dataset](http://deepio.cs.ox.ac.uk/)
+- [InteriorNet](https://interiornet.org/)
+- [Stereo Plenoptic Dataset](https://www.hs-karlsruhe.de/odometry-data/)
 
 ## Categorized by Environment
 ### Urban
 _City, campus, town, and infrastructures_
+- [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)
+- [Stereo Plenoptic Dataset](https://www.hs-karlsruhe.de/odometry-data/)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
@@ -310,6 +322,7 @@ _City, campus, town, and infrastructures_
 
 ### Indoor
 _Indoor environment_
+- [InteriorNet](https://interiornet.org/)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
 - [Robot @ Home Dataset](http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/203-robot-at-home-dataset)
@@ -329,6 +342,7 @@ _Indoor environment_
 
 ### Terrain
 _Rough terrain, underground, lake and farm_
+- [Rosario Agricultural Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
 - [Symphony Lake Dataset](http://dream.georgiatech-metz.fr/?q=node/79)
@@ -345,6 +359,7 @@ _Rough terrain, underground, lake and farm_
 
 ### Underwater
 _Underwater floor, cave_
+- [Aqualoc Underwater Dataset](http://www.lirmm.fr/aqualoc/)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 
