@@ -6,7 +6,7 @@ We provide several category for each access of the data.
 
 ## News !! (Update: 2018-10-31)
 
-Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/).
+Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/), [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset).
 
 
 ## Category
@@ -42,6 +42,7 @@ Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)               | Oxford       | 2018 | Hand       | TVCG/ISMAR  | Indoor                | O       | O      | O   |     |        |            | O       | O    |       |       |       |     | Tango (Asus ZenFone AR)
 | [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)               | Aalto U          | 2018 | Hand | ECCV                | Urban      | O | O | O |   |   |   | O |   |   |   |   |   | iPhone, Tango, Pixel                     |
 | [DeepIO Dataset](http://deepio.cs.ox.ac.uk/)                        | Oxford           | 2018 | Hand | Arxiv               | Indoor     | O |   | O |   |   |   |   |   |   |   |   |   |                                          |
 | [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/)                     | ONERA-DTIS       | 2018 | ROV  | IROS WS             | Underwater | O |   | O |   |   |   | O |   |   |   |   |   | Pressure Sensor                          |
@@ -125,6 +126,7 @@ _Dataset for odometry Benchmark_
 
 ### Mapping
 _Dataset for mapping task_
+- [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
@@ -275,6 +277,7 @@ _Water surface vehicle such as canoe and boat_
 
 ### Hand-held Device
 _Hand-held platform by human_
+- [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
 - [Comprehensive RGB-D Benchmark (CoRBS)](http://corbs.dfki.uni-kl.de/?pagerd_tumlltzzf42zsv6de7b9)
@@ -322,6 +325,7 @@ _City, campus, town, and infrastructures_
 
 ### Indoor
 _Indoor environment_
+- [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [InteriorNet](https://interiornet.org/)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
