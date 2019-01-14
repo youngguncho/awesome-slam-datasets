@@ -4,7 +4,7 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
-## News !! (Update: 2018-10-31)
+## News !! (Update: 2019-01-14)
 
 Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/), [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset).
 
