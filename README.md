@@ -6,7 +6,7 @@ We provide several category for each access of the data.
 
 ## News !! (Update: 2018-10-31)
 
-Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/).
+Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/), [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset).
 
 
 ## Category
@@ -31,7 +31,7 @@ Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/
     - [Unmanned Surface Vehicle (USV)](#unmanned-surface-vehicle): Water surface vehicle such as canoe and boat.
     - [Hand-held Device (Hand)](#hand-held-device): Hand-held platform by human
 
-- [Envoriment](#categorized-by-platform)
+- [Environment](#categorized-by-platform)
     - [Urban](#urban): City, campus, town, and infrastructures
     - [Indoor](#indoor): Indoor environment
     - [Terrain](#terrain): Rough terrain, underground, lake and farm
@@ -42,6 +42,7 @@ Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)               | Oxford       | 2018 | Hand       | TVCG/ISMAR  | Indoor                | O       | O      | O   |     |        |            | O       | O    |       |       |       |     | Tango (Asus ZenFone AR)
 | [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)               | Aalto U          | 2018 | Hand | ECCV                | Urban      | O | O | O |   |   |   | O |   |   |   |   |   | iPhone, Tango, Pixel                     |
 | [DeepIO Dataset](http://deepio.cs.ox.ac.uk/)                        | Oxford           | 2018 | Hand | Arxiv               | Indoor     | O |   | O |   |   |   |   |   |   |   |   |   |                                          |
 | [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/)                     | ONERA-DTIS       | 2018 | ROV  | IROS WS             | Underwater | O |   | O |   |   |   | O |   |   |   |   |   | Pressure Sensor                          |
@@ -83,7 +84,7 @@ Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/
 | [SeqSLAM](https://wiki.qut.edu.au/display/cyphy/Open+datasets+and+software)                              | QUT          | 2012 | Veh        | ICRA        | Urban                 |         |        |     |     | O      |            | O       |      |       |       |       |     |                         |
 | [ETH-challenging](http://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)  | ETH-ASL      | 2012 | Hand       | IJRR        | Urban, Terrain        |         |        | O   | O   |        | O          | O       | O    |       |       |       |     |                         |
 | [TUM-RGBD](https://vision.in.tum.de/data/datasets/rgbd-dataset)                                          | TUM          | 2012 | Hand / Mob | IROS        | Indoor                | O       |        | O   |     |        |            |         | O    |       |       |       |     |                         |
-| [ASRL-Kagara-airborn](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)                             | UToronto     | 2012 | UAV        | FSR         | Terrain               |         |        | O   | O   |        |            | O       |      |       |       |       |     |                         |
+| [ASRL-Kagara-airborne](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)                            | UToronto     | 2012 | UAV        | FSR         | Terrain               |         |        | O   | O   |        |            | O       |      |       |       |       |     |                         |
 | [Devon Island Rover](http://asrl.utias.utoronto.ca/datasets/devon-island-rover-navigation/)              | UToronto     | 2012 | Mob        | IJRR        | Terrain               | O       |        |     | O   |        |            | O       |      |       |       |       |     | Sunsensor, Inclinometer |
 | [ACFR Marine](http://marine.acfr.usyd.edu.au/datasets/)                                                  | ACFR         | 2012 | AUV        |             | Underwater            | O       |        | O   |     | O      |            | O       |      |       |       | O     |     |                         |
 | [UTIAS Multi-Robot](http://asrl.utias.utoronto.ca/datasets/mrclam/)                                      | UT-IAS       | 2011 | Mob        | IJRR        | Urban                 | O       |        |     |     | O      |            |         |      |       |       |       |     |                         |
@@ -125,6 +126,7 @@ _Dataset for odometry Benchmark_
 
 ### Mapping
 _Dataset for mapping task_
+- [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
@@ -179,7 +181,7 @@ _City-scale map, kilometer level Map_
 - [CCSAD (Stereo Urban) Dattaset](http://aplicaciones.cimat.mx/Personal/jbhayet/ccsad-dataset)
 - [Málaga Stereo and Laser Urban Data Set](https://www.mrpt.org/MalagaUrbanDataset)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
-- [Kagaru Airborn Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
+- [Kagaru Airborne Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 
 ### Long-term
@@ -204,7 +206,7 @@ _Variation of mapping structures_
 ### Extreme Condition
 _Extreme environment, motions_
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/): Underwater Environment
-- [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#): Underground Envoriment
+- [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#): Underground Environment
 - [CityScapes Dataset](https://www.cityscapes-dataset.com/): Foggy Scene
 - [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets): Fast motion
 - [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/):  Smoky, dust, and Rain condition
@@ -255,7 +257,7 @@ _Unmanned aerial robots include drone_
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
 - [Solar-powered UAV Sensing and Mapping Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=fsr2015)
 - [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
-- [Kagaru Airborn Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
+- [Kagaru Airborne Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
 
 
 
@@ -275,6 +277,7 @@ _Water surface vehicle such as canoe and boat_
 
 ### Hand-held Device
 _Hand-held platform by human_
+- [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
 - [Comprehensive RGB-D Benchmark (CoRBS)](http://corbs.dfki.uni-kl.de/?pagerd_tumlltzzf42zsv6de7b9)
@@ -322,6 +325,7 @@ _City, campus, town, and infrastructures_
 
 ### Indoor
 _Indoor environment_
+- [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [InteriorNet](https://interiornet.org/)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
@@ -352,7 +356,7 @@ _Rough terrain, underground, lake and farm_
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
 - [Canadian Planetary Emulation Terrain 3D Mapping Dataset](http://asrl.utias.utoronto.ca/datasets/3dmap/#Datasets)
 - [Challenging data sets for point cloud registration - algorithms](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)
-- [Kagaru Airborn Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
+- [Kagaru Airborne Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
 - [Devon Island Rover Navigation Dataset](http://asrl.utias.utoronto.ca/datasets/devon-island-rover-navigation/)
 - [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/)
 
