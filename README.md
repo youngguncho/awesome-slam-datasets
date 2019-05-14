@@ -86,7 +86,7 @@ Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/
 | [MRPT-Malaga](https://www.mrpt.org/robotics_datasets)                                                    | MRPT         | 2014 | Veh        | AR          | Urban                 |         |        | O   | O   |        | O          | O       |      |       |       |       |     |                         |
 | [KITTI](http://www.cvlibs.net/datasets/kitti/index.php)                                                  | KIT          | 2013 | Veh        | IJRR        | Urban                 | O       |        | O   | O   | O      | O          | O       |      |       |       |       |     |                         |
 | [Canadian Planetary](http://asrl.utias.utoronto.ca/datasets/3dmap/#Datasets)                             | UToronto     | 2013 | Mob        | IJRR        | Terrain               | O       |        | O   | O   |        | O (sensor) | O       |      |       |       |       |     |                         |
-| [Microsoft 7 scenes](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)                               | Microsoft    | 2013 | Hand       | CVPR        | Indoor                | O       | O      |     |     |        |            | O       |      |       |       |       |     |                         |
+| [Microsoft 7 scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)                               | Microsoft    | 2013 | Hand       | CVPR        | Indoor                | O       | O      |     |     |        |            | O       |      |       |       |       |     |                         |
 | [SeqSLAM](https://wiki.qut.edu.au/display/cyphy/Open+datasets+and+software)                              | QUT          | 2012 | Veh        | ICRA        | Urban                 |         |        |     |     | O      |            | O       |      |       |       |       |     |                         |
 | [ETH-challenging](http://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)  | ETH-ASL      | 2012 | Hand       | IJRR        | Urban, Terrain        |         |        | O   | O   |        | O          | O       | O    |       |       |       |     |                         |
 | [TUM-RGBD](https://vision.in.tum.de/data/datasets/rgbd-dataset)                                          | TUM          | 2012 | Hand / Mob | IROS        | Indoor                | O       |        | O   |     |        |            |         | O    |       |       |       |     |                         |
@@ -159,7 +159,7 @@ _Dataset gives correspondences of places (images)_
 _Dataset for metric-level localization_
 - [Cambridge Landmark Dataset](http://mi.eng.cam.ac.uk/projects/relocalisation/)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
-- [Microsoft 7 scenes](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
+- [Microsoft 7 scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
 - [San Francisco Landmark Dataset](https://sites.google.com/site/chenmodavid/datasets)
 
 
@@ -343,7 +343,7 @@ _Indoor environment_
 - [TUM Omnidirectional Cameras Dataset](https://vision.in.tum.de/data/datasets/omni-lsdslam)
 - [Augmented ICL-NUIM Reconstruction Dataset](http://redwood-data.org/indoor/index.html)
 - [ICL-NUIM RGBD Dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
-- [Microsoft 7 scenes](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html)
+- [Microsoft 7 scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
 - [TUM RGB-D SLAM Dataset and Benchmark](https://vision.in.tum.de/data/datasets/rgbd-dataset)
 - [Cosy Localization Database (COLD)](https://www.pronobis.pro/#data)
 - [Rawseeds In/Outdoor Dataset](http://www.rawseeds.org/home/category/benchmarking-toolkit/datasets/)
