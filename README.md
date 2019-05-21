@@ -10,12 +10,14 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
-## News !! (Update: 2019-01-14)
-
-Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/ADVIO), [DeepIO Dataset](http://deepio.cs.ox.ac.uk/), [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/), [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php), [InteriorNet](https://interiornet.org/), [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/), [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset).
+## News !! (Update: 2019-05-20)
+- In ICRA 2019 (Montreal), workshop on ['Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR'](https://sites.google.com/view/icra-2019-workshop/home) will be held!. We  are pretty sure that there will be many 'new' and 'hot' datasets intruduced at the workshop.
+- We add [evaluation section](#evaluation) (Tools for trajectory and SLAM methods evaluation)
 
 
 ## Category
+- [Evaluation](#evaluation)
+  - Evaluation Methods of SLAM
 - [Topic](#categorized-by-topic)
   - [Odometry](#odometry): Dataset for odometry Benchmark
   - [Mapping](#mapping): Dataset for mapping task
@@ -107,6 +109,12 @@ Recently, we added new datasets: [ADVIO Dataset](https://github.com/AaltoVision/
 | [Rawseeds-outdoor](http://www.rawseeds.org/home/category/benchmarking-toolkit/datasets/)                 | Milano       | 2009 | Mob        | IROSW       | Urban                 | O       | O      | O   | O   |        | O          | O       |      |       |       | O     |     |                         |
 | [FABMAP](http://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/)                                          | Oxford-Robot | 2008 | Veh        | IJRR        | Urban                 |         |        |     | O   |        |            | O       |      |       |       |       |     |                         |
 
+
+## Evaluation
+_Evaluation methods for SLAM benchmarks_
+- Trajectory Evaluation with Alignment [[Paper](http://rpg.ifi.uzh.ch/docs/IROS18_Zhang.pdf)], [[Code](https://github.com/uzh-rpg/rpg_trajectory_evaluation)]
+- Python package for the evaluation of odometry and SLAM [[Code](https://michaelgrupp.github.io/evo/)]
+- SLAMBench2.0: SLAM performance evaluation framework [[Code](https://github.com/pamela-project/slambench2)]
 
 ## Categorized By Topic
 
