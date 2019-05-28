@@ -3,7 +3,7 @@
 # Awesome SLAM Datasets [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ![image](figs/awesome_datasets_thumbnails.png)
->Thumbnail Figures from Complex Urban, NCLT, Oxford robotcar, KiTTi, Cityscapes datasets.
+>Thumbnail Figures from Complex Urban, NCLT, Oxford robotcar, KiTTi, Cityscapes datasets.  
 
 
 This repository is the collection of SLAM-related datasets. Among various SLAM datasets, we've selected the datasets provide pose and map information. This repository is linked to the [google site](https://sites.google.com/view/awesome-slam-datasets/). In this repository, the overall dataset chart is represented as simplified version. You can use full version of the chart (made by google spreadsheet) in the [project page](https://sites.google.com/view/awesome-slam-datasets/).
