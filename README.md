@@ -14,7 +14,7 @@ We provide several category for each access of the data.
 - In ICRA 2019 (Montreal), workshop on ['Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR'](https://sites.google.com/view/icra-2019-workshop/home) will be held!. We  are pretty sure that there will be many 'new' and 'hot' datasets intruduced at the workshop.
 - We add [evaluation section](#evaluation) (Tools for trajectory and SLAM methods evaluation)
 - We add a new UAV dataset, [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which aims high speed state estimation using RGB, Event, and IMU.
-
+- Complex Urban Dataset (KAIST) now includes stereo camera images! (published in IJRR 2019)
 
 ## Category
 - [Evaluation](#evaluation)
