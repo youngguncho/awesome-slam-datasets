@@ -16,6 +16,16 @@ We provide several category for each access of the data.
 - We add a new UAV dataset, [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which aims high speed state estimation using RGB, Event, and IMU.
 - [Complex Urban Dataset (KAIST)](http://irap.kaist.ac.kr/dataset/) now includes stereo camera images! (published in IJRR 2019)
 
+## TODO
+- Add datasets introduced in CVPR 2019
+  - Waymo (https://waymo.com/open)
+  - Nuscenes (https://www.nuscenes.org/)
+  - ...
+- Add Simulation datast category
+  - CARLA
+  - Airsim
+  - Syncity
+
 ## Category
 - [Evaluation](#evaluation)
   - Evaluation Methods of SLAM
