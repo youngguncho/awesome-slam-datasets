@@ -10,7 +10,8 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
-## News !! (Update: 2019-05-30)
+## News !! (Update: 2019-09-24)
+- We add [FMDataset](https://github.com/zhuzunjie17/FastFusion) which consist on RGBD and IMU data for dense reconstruction of indoor environments
 - In ICRA 2019 (Montreal), workshop on ['Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR'](https://sites.google.com/view/icra-2019-workshop/home) will be held!. We  are pretty sure that there will be many 'new' and 'hot' datasets intruduced at the workshop.
 - We add [evaluation section](#evaluation) (Tools for trajectory and SLAM methods evaluation)
 - We add a new UAV dataset, [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which aims high speed state estimation using RGB, Event, and IMU.
@@ -62,6 +63,7 @@ We provide several category for each access of the data.
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
 | [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)               | UZH, ETH       | 2019 | UAV       | ICRA  | Indoor, Urban                | O       |       | O   |     |        |            |  O     |     | O     |       |       |     |  |
+| [FMDataset](https://github.com/zhuzunjie17/FastFusion)   | Hangzhou Dianzi / Tsinghua | 2019 | Hand | ICME | Indoor |   |   | O |   |   |   |   | O  |   |   |  |   |   |
 | [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php) | CONICET-UNR      | 2019 | Mob  | IJRR | Terrain    | O |   | O |   |   |   | O |   |   |   |   |   | Encoder                                  |
 | [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)               | Oxford       | 2018 | Hand       | TVCG/ISMAR  | Indoor                | O       | O      | O   |     |        |            | O       | O    |       |       |       |     | Tango (Asus ZenFone AR)
 | [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)               | Aalto U          | 2018 | Hand | ECCV                | Urban      | O | O | O |   |   |   | O |   |   |   |   |   | iPhone, Tango, Pixel                     |
@@ -166,6 +168,7 @@ _Dataset for mapping task_
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 - [Ford Campus Vision and Lidar Dataset](http://robots.engin.umich.edu/SoftwareData/Ford)
 - [InteriorNet](https://interiornet.org/)
+- [FMDataset](https://github.com/zhuzunjie17/FastFusion)
 
 ### Place Recognition
 _Dataset gives correspondences of places (images)_
@@ -318,6 +321,8 @@ _Hand-held platform by human_
 - [Deep Inertial Odometry Dataset](http://deepio.cs.ox.ac.uk/)
 - [InteriorNet](https://interiornet.org/)
 - [Stereo Plenoptic Dataset](https://www.hs-karlsruhe.de/odometry-data/)
+- [FMDataset](https://github.com/zhuzunjie17/FastFusion)
+
 
 ## Categorized by Environment
 ### Urban
@@ -355,6 +360,7 @@ _City, campus, town, and infrastructures_
 
 ### Indoor
 _Indoor environment_
+- [FMDataset](https://github.com/zhuzunjie17/FastFusion)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [InteriorNet](https://interiornet.org/)
