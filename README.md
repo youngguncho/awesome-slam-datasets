@@ -10,7 +10,11 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
-## News !! (Update: 2019-09-24)
+## News !! 
+## Update: 2020-02-29
+- We updated SLAMBench from version 2.0 to 3.0. 
+
+### Update: 2019-09-24
 - We add [FMDataset](https://github.com/zhuzunjie17/FastFusion) which consist on RGBD and IMU data for dense reconstruction of indoor environments
 - In ICRA 2019 (Montreal), workshop on ['Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR'](https://sites.google.com/view/icra-2019-workshop/home) will be held!. We  are pretty sure that there will be many 'new' and 'hot' datasets intruduced at the workshop.
 - We add [evaluation section](#evaluation) (Tools for trajectory and SLAM methods evaluation)
@@ -128,7 +132,7 @@ We provide several category for each access of the data.
 _Evaluation methods for SLAM benchmarks_
 - Trajectory Evaluation with Alignment [[Paper](http://rpg.ifi.uzh.ch/docs/IROS18_Zhang.pdf)], [[Code](https://github.com/uzh-rpg/rpg_trajectory_evaluation)]
 - Python package for the evaluation of odometry and SLAM [[Code](https://michaelgrupp.github.io/evo/)]
-- SLAMBench2.0: SLAM performance evaluation framework [[Code](https://github.com/pamela-project/slambench2)]
+- SLAMBench 3.0: Systematic Automated Reproducible Evaluation of SLAM Systems for Robot Vision Challenges and Scene Understanding [[Paper](https://www.sajad-saeedi.ca/uploads/3/8/5/9/38597021/sb3.pdf), [[Code](https://github.com/mihaibujanca/slambench3)
 
 ## Categorized By Topic
 
