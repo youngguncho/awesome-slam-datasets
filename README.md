@@ -11,7 +11,10 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 We provide several category for each access of the data.
 
 ## News !! 
-## Update: 2020-02-29
+### Update: 2020-02-26
+- We add a new visual localization and mapping dataset named "ICL Dataset". 
+
+### Update: 2020-02-29
 - We updated SLAMBench from version 2.0 to 3.0. 
 
 ### Update: 2019-09-24
@@ -66,6 +69,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [ICL Dataset](https://peringlab.org/lmdata/)               | Imperial College       | 2019 | Hand, MAV       | ICRA  | Indoor                | O       |       |    |     |        |            |       |     | O     | O      |       |     |  |
 | [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)               | UZH, ETH       | 2019 | UAV       | ICRA  | Indoor, Urban                | O       |       | O   |     |        |            |  O     |     | O     |       |       |     |  |
 | [FMDataset](https://github.com/zhuzunjie17/FastFusion)   | Hangzhou Dianzi / Tsinghua | 2019 | Hand | ICME | Indoor |   |   | O |   |   |   |   | O  |   |   |  |   |   |
 | [Rosario Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php) | CONICET-UNR      | 2019 | Mob  | IJRR | Terrain    | O |   | O |   |   |   | O |   |   |   |   |   | Encoder                                  |
@@ -138,6 +142,7 @@ _Evaluation methods for SLAM benchmarks_
 
 ### Odometry
 _Dataset for odometry Benchmark_
+- [ICL Dataset](https://peringlab.org/lmdata/)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
@@ -185,6 +190,7 @@ _Dataset gives correspondences of places (images)_
 
 ### Localization
 _Dataset for metric-level localization_
+- [ICL Dataset](https://peringlab.org/lmdata/)
 - [Cambridge Landmark Dataset](http://mi.eng.cam.ac.uk/projects/relocalisation/)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
 - [Microsoft 7 scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
@@ -288,6 +294,7 @@ _Mobile Robots (Ex. Husky, Rover.. )_
 
 ### Unmanned Aerial Vehicle
 _Unmanned aerial robots include drone_
+- [ICL Dataset](https://peringlab.org/lmdata/)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [Zurich Urban Micro Aerial Vehicle Dataset](http://rpg.ifi.uzh.ch/zurichmavdataset.html)
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
@@ -364,6 +371,7 @@ _City, campus, town, and infrastructures_
 
 ### Indoor
 _Indoor environment_
+- [ICL Dataset](https://peringlab.org/lmdata/)
 - [FMDataset](https://github.com/zhuzunjie17/FastFusion)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
