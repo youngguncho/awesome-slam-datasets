@@ -11,7 +11,7 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 We provide several category for each access of the data.
 
 ## News !! 
-### Update: 2020-02-26
+### Update: 2021-02-26
 - We add a new visual localization and mapping dataset named "ICL Dataset". 
 
 ### Update: 2020-02-29
