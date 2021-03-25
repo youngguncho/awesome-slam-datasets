@@ -11,6 +11,9 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 We provide several category for each access of the data.
 
 ## News !! 
+## Update: 2021-03-24
+- Add PennCosyVIO
+
 ### Update: 2021-02-26
 - We add a new visual localization and mapping dataset named "ICL Dataset". 
 - Added OpenVINS evaulation toolbox link.
@@ -70,6 +73,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [PennCOSYVIO Dataset](https://daniilidis-group.github.io/penncosyvio/)               | University of Pennsylvania      | 2017 | Hand     | ICRA  | Indoor + Outdoor                | O       |       | O   |     |        |            | O      |     |      |       |       |     |  |
 | [ICL Dataset](https://peringlab.org/lmdata/)               | Imperial College       | 2019 | Hand, MAV       | ICRA  | Indoor                | O       |       |    |     |        |            | O      | O    |      |       |       |     |  |
 | [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)               | UZH, ETH       | 2019 | UAV       | ICRA  | Indoor, Urban                | O       |       | O   |     |        |            |  O     |     | O     |       |       |     |  |
 | [FMDataset](https://github.com/zhuzunjie17/FastFusion)   | Hangzhou Dianzi / Tsinghua | 2019 | Hand | ICME | Indoor |   |   | O |   |   |   |   | O  |   |   |  |   |   |
