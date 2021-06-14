@@ -73,6 +73,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/)               | German Aerospace Center (DLR)      | 2021 | Handheld Rover-Mockup     | JFR  | Rough Terrain, Planetary analog   | O       |       | O   | O    |        |            | O      | O    |      |       |       |     | Stereo Cams + Stereo Omnidirectional Cameras; Navigation Benchmark |
 | [PennCOSYVIO Dataset](https://daniilidis-group.github.io/penncosyvio/)               | University of Pennsylvania      | 2017 | Hand     | ICRA  | Indoor + Outdoor                | O       |       | O   |     |        |            | O      |     |      |       |       |     |  |
 | [ICL Dataset](https://peringlab.org/lmdata/)               | Imperial College       | 2019 | Hand, MAV       | ICRA  | Indoor                | O       |       |    |     |        |            | O      | O    |      |       |       |     |  |
 | [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)               | UZH, ETH       | 2019 | UAV       | ICRA  | Indoor, Urban                | O       |       | O   |     |        |            |  O     |     | O     |       |       |     |  |
@@ -166,6 +167,7 @@ _Dataset for odometry Benchmark_
 - [Aqualoc Underwater Dataset](http://www.lirmm.fr/aqualoc/)
 - [Rosario Agricultural Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
 - [Stereo Plenoptic Odometry Dataset](https://www.hs-karlsruhe.de/odometry-data/)
+- [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
 
 
 ### Mapping
@@ -184,6 +186,7 @@ _Dataset for mapping task_
 - [Ford Campus Vision and Lidar Dataset](http://robots.engin.umich.edu/SoftwareData/Ford)
 - [InteriorNet](https://interiornet.org/)
 - [FMDataset](https://github.com/zhuzunjie17/FastFusion)
+- [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
 
 ### Place Recognition
 _Dataset gives correspondences of places (images)_
@@ -201,6 +204,7 @@ _Dataset for metric-level localization_
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
 - [Microsoft 7 scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
 - [San Francisco Landmark Dataset](https://sites.google.com/site/chenmodavid/datasets)
+- [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
 
 
 ### Perception
@@ -297,6 +301,7 @@ _Mobile Robots (Ex. Husky, Rover.. )_
 - [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/)
 - [TUM RGB-D SLAM Dataset and Benchmark](https://vision.in.tum.de/data/datasets/rgbd-dataset)
 - [New College Vision and Laser Data Set](http://www.robots.ox.ac.uk/NewCollegeData/)
+- [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
 
 ### Unmanned Aerial Vehicle
 _Unmanned aerial robots include drone_
@@ -414,7 +419,7 @@ _Rough terrain, underground, lake and farm_
 - [Kagaru Airborne Stereo Dataset Dataset](http://asrl.utias.utoronto.ca/~mdw/kagarudataset.html)
 - [Devon Island Rover Navigation Dataset](http://asrl.utias.utoronto.ca/datasets/devon-island-rover-navigation/)
 - [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/)
-
+- [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
 
 ### Underwater
 _Underwater floor, cave_
