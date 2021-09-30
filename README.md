@@ -65,7 +65,7 @@ We provide several category for each access of the data.
 - [Environment](#categorized-by-platform)
     - [Urban](#urban): City, campus, town, and infrastructures
     - [Indoor](#indoor): Indoor environment
-    - [Terrain](#terrain): Rough terrain, underground, lake and farm
+    - [Terrain](#terrain): Forest, Rough terrain, underground, lake and farm
     - [Underwater](#underwater): Underwater floor, cave
 
 ## Overall datasets chart (Simplified Version)
@@ -74,6 +74,7 @@ We provide several category for each access of the data.
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
 | [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/)               | German Aerospace Center (DLR)      | 2021 | Handheld Rover-Mockup     | JFR  | Rough Terrain, Planetary analog   | O       |       | O   | O    |        |            | O      | O    |      |       |       |     | Stereo Cams + Stereo Omnidirectional Cameras; Navigation Benchmark |
+| [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)   | Tampere University   | 2020 | Veh     | RAS journal  | Forest,  Terrain   |     O    |       |        |      |       |            |    O    |      |      |       |       |     | Multiple Stereo Pairs ;  Sampling Rate(40, 13, and 8Hz) |
 | [PennCOSYVIO Dataset](https://daniilidis-group.github.io/penncosyvio/)               | University of Pennsylvania      | 2017 | Hand     | ICRA  | Indoor + Outdoor                | O       |       | O   |     |        |            | O      |     |      |       |       |     |  |
 | [ICL Dataset](https://peringlab.org/lmdata/)               | Imperial College       | 2019 | Hand, MAV       | ICRA  | Indoor                | O       |       |    |     |        |            | O      | O    |      |       |       |     |  |
 | [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)               | UZH, ETH       | 2019 | UAV       | ICRA  | Indoor, Urban                | O       |       | O   |     |        |            |  O     |     | O     |       |       |     |  |
@@ -149,6 +150,7 @@ _Evaluation methods for SLAM benchmarks_
 
 ### Odometry
 _Dataset for odometry Benchmark_
+- [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
@@ -236,6 +238,7 @@ _City-scale map, kilometer level Map_
 
 ### Long-term
 _Multi-session, long-term data collection_
+- [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
 - [Symphony Lake Dataset](http://dream.georgiatech-metz.fr/?q=node/79)
@@ -255,6 +258,7 @@ _Variation of mapping structures_
 
 ### Extreme Condition
 _Extreme environment, motions_
+- [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/): Underwater Environment
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#): Underground Environment
@@ -266,6 +270,7 @@ _Extreme environment, motions_
 
 ### Vehicle
 _Commercial Vehicle (Four-wheeled on the road)_
+- [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [Complex Urban Dataset](http://irap.kaist.ac.kr/dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
@@ -406,6 +411,7 @@ _Indoor environment_
 
 ### Terrain
 _Rough terrain, underground, lake and farm_
+- [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [Rosario Agricultural Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
