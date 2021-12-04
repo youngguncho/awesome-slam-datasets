@@ -91,7 +91,7 @@ We provide several category for each access of the data.
 | [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)                    | TUM          | 2018 | Hand       | Arxiv       | Indoor, Urban         |         |        | O   |     |        |            |         | O    |       | O     |       |     |                         |
 | [Multi Vech Event](https://daniilidis-group.github.io/mvsec/)                                            | Upenn        | 2018 | Veh        | RA-L        | Urban                 | O       |        | O   | O   |        | O          | O       |      | O     |       |       |     |                         |
 | [VI Canoe](https://databank.illinois.edu/datasets/IDB-9342111)                                           | UIUC         | 2018 | USV        | IJRR        | Terrain               | O       |        | O   | O   |        |            | O       |      |       |       |       |     |                         |
-| [MPO-Japan](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)                   | ETH-RPG      | 2017 | UAV / Hand | IJRR        | Indoor                | O       |        | O   |     |        |            | O       |      | O     |       |       |     |                         |
+| [MPO-Japan](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)                   | ETH-RPG      | 2017 | UAV / Hand | IJRR        | Indoor                | O       |        | O   |     |        |            | O       |      | O     |       |       |     |                         |
 | [Underwater Cave](http://cirs.udg.edu/caves-dataset/)                                                    | UDG          | 2017 | AUV        | IJRR        | Underwater            | O       |        | O   |     |        |            | O       |      |       |       | O     | O   | Profiling Sonar         |
 | [Robot @ Home](http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/203-robot-at-home-dataset) | MRPT         | 2017 | Mob        | IJRR        | Indoor                | O       | O      |     |     | O      | O          |         | O    |       |       |       |     | Semantic Labels         |
 | [Zurich Urban MAV](http://rpg.ifi.uzh.ch/zurichmavdataset.html)                                          | ETH-RPG      | 2017 | UAV        | IJRR        | Urban                 | O       |        | O   | O   |        |            | O       |      |       |       |       |     | Streetview images       |
@@ -176,7 +176,7 @@ _Dataset for odometry Benchmark_
 _Dataset for mapping task_
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
-- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
 - [Oxford Robotcar Dataset](http://robotcar-dataset.robots.ox.ac.uk/)
@@ -226,7 +226,7 @@ _Dataset with semantic labels / correspondences_
 _City-scale map, kilometer level Map_
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
-- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [CityScapes Dataset](https://www.cityscapes-dataset.com/)
 - [Solar-powered UAV Sensing and Mapping Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=fsr2015)
 - [Oxford Robotcar Dataset](http://robotcar-dataset.robots.ox.ac.uk/)
@@ -251,7 +251,7 @@ _Multi-session, long-term data collection_
 _Variation of mapping structures_
 - [Complex Urban](http://irap.kaist.ac.kr/dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
-- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [Málaga Stereo and Laser Urban Data Set](https://www.mrpt.org/MalagaUrbanDataset)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
 - [Challenging data sets for point cloud registration - algorithms](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration)
@@ -274,7 +274,7 @@ _Commercial Vehicle (Four-wheeled on the road)_
 - [Complex Urban Dataset](http://irap.kaist.ac.kr/dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
-- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [Oxford Robotcar Dataset](http://robotcar-dataset.robots.ox.ac.uk/)
 - [CityScapes Dataset](https://www.cityscapes-dataset.com/)
 - [CCSAD (Stereo Urban) Dattaset](http://aplicaciones.cimat.mx/Personal/jbhayet/ccsad-dataset)
@@ -393,7 +393,7 @@ _Indoor environment_
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [InteriorNet](https://interiornet.org/)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
-- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](http://robotics.ait.kyushu-u.ac.jp/kurazume_lab/research-e.php?content=db)
+- [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [Robot @ Home Dataset](http://mapir.isa.uma.es/mapirwebsite/index.php/mapir-downloads/203-robot-at-home-dataset)
 - [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
 - [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
