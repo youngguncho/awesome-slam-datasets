@@ -26,7 +26,7 @@ We provide several category for each access of the data.
 - In ICRA 2019 (Montreal), workshop on ['Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR'](https://sites.google.com/view/icra-2019-workshop/home) will be held!. We  are pretty sure that there will be many 'new' and 'hot' datasets intruduced at the workshop.
 - We add [evaluation section](#evaluation) (Tools for trajectory and SLAM methods evaluation)
 - We add a new UAV dataset, [UZH-FPV Drone Racing Dataset](http://rpg.ifi.uzh.ch/uzh-fpv.html), which aims high speed state estimation using RGB, Event, and IMU.
-- [Complex Urban Dataset (KAIST)](http://irap.kaist.ac.kr/dataset/) now includes stereo camera images! (published in IJRR 2019)
+- [Complex Urban Dataset (KAIST)](https://sites.google.com/view/complex-urban-dataset) now includes stereo camera images! (published in IJRR 2019)
 
 ## TODO
 - Add datasets introduced in CVPR 2019
@@ -86,7 +86,7 @@ We provide several category for each access of the data.
 | [Aqualoc Dataset](http://www.lirmm.fr/aqualoc/)                     | ONERA-DTIS       | 2018 | ROV  | IROS WS             | Underwater | O |   | O |   |   |   | O |   |   |   |   |   | Pressure Sensor                          |
 | [InteriorNet](https://interiornet.org/)                             | Imperial College | 2018 | Hand | BMVC                | Indoor     | O | O | O |   | O |   | O | O | O |   |   |   | Texture, Lighting, Context, Optical Flow |
 | [SPO Dataset](https://www.hs-karlsruhe.de/odometry-data/)           | TUM, Karlsruhe   | 2018 | Hand | Arxiv               | Urban      | O |   |   |   |   |   | O |   |   |   |   |   | Plenoptic Camera                         |
-| [Complex Urban](http://irap.kaist.ac.kr/dataset/)                                                        | KAIST-IRAP   | 2018 | Veh        | ICRA        | Urban                 | O       | O      | O   | O   |        | O          |         |      |       |       |       |     | Encoder                 |
+| [Complex Urban](https://sites.google.com/view/complex-urban-dataset)                                                        | KAIST-IRAP   | 2018 | Veh        | ICRA        | Urban                 | O       | O      | O   | O   |        | O          |         |      |       |       |       |     | Encoder                 |
 | [KAIST Day/Night](https://sites.google.com/view/multispectral/home)                                      | KAIST-RCV    | 2018 | Veh        | T-ITS       | Urban                 | O       |        | O   | O   | O      | O          | O       |      |       |       |       |     | Thermal Camera          |
 | [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)                    | TUM          | 2018 | Hand       | Arxiv       | Indoor, Urban         |         |        | O   |     |        |            |         | O    |       | O     |       |     |                         |
 | [Multi Vech Event](https://daniilidis-group.github.io/mvsec/)                                            | Upenn        | 2018 | Veh        | RA-L        | Urban                 | O       |        | O   | O   |        | O          | O       |      | O     |       |       |     |                         |
@@ -175,7 +175,7 @@ _Dataset for odometry Benchmark_
 ### Mapping
 _Dataset for mapping task_
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
-- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Complex Urban](https://sites.google.com/view/complex-urban-dataset)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [Chilean Underground Mine Dataset](http://dataset.amtc.cl/#)
@@ -224,7 +224,7 @@ _Dataset with semantic labels / correspondences_
 
 ### Large-scale
 _City-scale map, kilometer level Map_
-- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Complex Urban](https://sites.google.com/view/complex-urban-dataset)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [CityScapes Dataset](https://www.cityscapes-dataset.com/)
@@ -249,7 +249,7 @@ _Multi-session, long-term data collection_
 
 ### Map Complexity
 _Variation of mapping structures_
-- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Complex Urban](https://sites.google.com/view/complex-urban-dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
 - [Málaga Stereo and Laser Urban Data Set](https://www.mrpt.org/MalagaUrbanDataset)
@@ -271,7 +271,7 @@ _Extreme environment, motions_
 ### Vehicle
 _Commercial Vehicle (Four-wheeled on the road)_
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
-- [Complex Urban Dataset](http://irap.kaist.ac.kr/dataset/)
+- [Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
@@ -359,7 +359,7 @@ _City, campus, town, and infrastructures_
 - [Stereo Plenoptic Dataset](https://www.hs-karlsruhe.de/odometry-data/)
 - [KAIST Day/Night Dataset](https://sites.google.com/view/multispectral/home)
 - [TUM-Visual-Inertial](https://vision.in.tum.de/data/datasets/visual-inertial-dataset)
-- [Complex Urban](http://irap.kaist.ac.kr/dataset/)
+- [Complex Urban](https://sites.google.com/view/complex-urban-dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [Zurich Urban Micro Aerial Vehicle Dataset](http://rpg.ifi.uzh.ch/zurichmavdataset.html)
 - [TUM Monocular Cameras Dataset](https://vision.in.tum.de/data/datasets/mono-dataset)
