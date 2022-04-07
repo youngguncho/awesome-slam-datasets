@@ -11,6 +11,10 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 We provide several category for each access of the data.
 
 ## News !! 
+
+## Update: 2022-04-07
+- Add Hilti SLAM Dataset
+
 ## Update: 2021-03-24
 - Add PennCosyVIO
 
@@ -73,6 +77,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [Hilti SLAM Dataset](https://hilti-challenge.com/)               | Hilti, Oxford, UZH     | 2022 | Hand     |    | Indoor + Outdoor                | O       | O      | O   |     |        | O          | O       |      |       |       |       |     |                         |
 | [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/)               | German Aerospace Center (DLR)      | 2021 | Handheld Rover-Mockup     | JFR  | Rough Terrain, Planetary analog   | O       |       | O   | O    |        |            | O      | O    |      |       |       |     | Stereo Cams + Stereo Omnidirectional Cameras; Navigation Benchmark |
 | [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)   | Tampere University   | 2020 | Veh     | RAS journal  | Forest,  Terrain   |     O    |       |        |      |       |            |    O    |      |      |       |       |     | Multiple Stereo Pairs ;  Sampling Rate(40, 13, and 8Hz) |
 | [PennCOSYVIO Dataset](https://daniilidis-group.github.io/penncosyvio/)               | University of Pennsylvania      | 2017 | Hand     | ICRA  | Indoor + Outdoor                | O       |       | O   |     |        |            | O      |     |      |       |       |     |  |
@@ -170,7 +175,7 @@ _Dataset for odometry Benchmark_
 - [Rosario Agricultural Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
 - [Stereo Plenoptic Odometry Dataset](https://www.hs-karlsruhe.de/odometry-data/)
 - [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
-
+- [Hilti SLAM Dataset](https://hilti-challenge.com/)  
 
 ### Mapping
 _Dataset for mapping task_
@@ -349,6 +354,7 @@ _Hand-held platform by human_
 - [InteriorNet](https://interiornet.org/)
 - [Stereo Plenoptic Dataset](https://www.hs-karlsruhe.de/odometry-data/)
 - [FMDataset](https://github.com/zhuzunjie17/FastFusion)
+- [Hilti SLAM Dataset](https://hilti-challenge.com/)  
 
 
 ## Categorized by Environment
