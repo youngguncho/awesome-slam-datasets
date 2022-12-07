@@ -12,6 +12,9 @@ We provide several category for each access of the data.
 
 ## News !! 
 
+## Update: 2022-8-15
+- Add VECtor Dataset
+
 ## Update: 2022-04-07
 - Add Hilti SLAM Dataset
 
@@ -77,6 +80,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [VECtor Dataset](https://star-datasets.github.io/vector/) | ShanghaiTech University | 2022 | Hand     |  RA-L  | Indoor + Outdoor                | O       |        | O   |     |        | O          | O       |  O    |    O    |       |       |     |                         |
 | [Hilti SLAM Dataset](https://hilti-challenge.com/)               | Hilti, Oxford, UZH     | 2022 | Hand     |    | Indoor + Outdoor                | O       | O      | O   |     |        | O          | O       |      |       |       |       |     |                         |
 | [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/)               | German Aerospace Center (DLR)      | 2021 | Handheld Rover-Mockup     | JFR  | Rough Terrain, Planetary analog   | O       |       | O   | O    |        |            | O      | O    |      |       |       |     | Stereo Cams + Stereo Omnidirectional Cameras; Navigation Benchmark |
 | [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)   | Tampere University   | 2020 | Veh     | RAS journal  | Forest,  Terrain   |     O    |       |        |      |       |            |    O    |      |      |       |       |     | Multiple Stereo Pairs ;  Sampling Rate(40, 13, and 8Hz) |
@@ -176,7 +180,7 @@ _Dataset for odometry Benchmark_
 - [Stereo Plenoptic Odometry Dataset](https://www.hs-karlsruhe.de/odometry-data/)
 - [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/) 
 - [Hilti SLAM Dataset](https://hilti-challenge.com/)  
-
+- [VECtor Dataset](https://star-datasets.github.io/vector/)
 ### Mapping
 _Dataset for mapping task_
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
