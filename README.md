@@ -14,6 +14,7 @@ We provide several category for each access of the data.
 ## Update: 2023-06-20
 - Add 4Seasons
 - Add M2DGR
+- Add Tartanair
 
   
 ## Update: 2022-8-15
@@ -85,7 +86,8 @@ We provide several category for each access of the data.
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
 | [4Seasons Dataset](https://www.4seasons-dataset.com/) | Technical University of Munich| 2020 | Veh    |  GCPR  | Outdoor                | O       |   O     | O   |    O |        | O          | O       |  O    |    O    |       |       |     |    
-| [M2DGR](https://star-datasets.github.io/vector/) | Shanghai Jiaotong University | 2021 | ROV     |  RA-L  | Indoor + Outdoor                | O       |        | O   |   O  |        | O          | O       |  O    |    O    |       |       |     |    
+| [M2DGR](https://star-datasets.github.io/vector/) | Shanghai Jiaotong University | 2021 | ROV     |  RA-L  | Indoor + Outdoor                | O       |        | O   |   O  |        | O          | O       |  O    |    O    |       |       |     |   
+| [TartanAir]([http://rpg.ifi.uzh.ch/uzh-fpv.html](https://theairlab.org/tartanair-dataset/))               |    CMU    | 2020 | UAV       | IROS  | Simulation                | O       |   O    | O   |   |        |            |  O     |     | O     |       |       |     |  |
 | [VECtor Dataset](https://star-datasets.github.io/vector/) | ShanghaiTech University | 2022 | Hand     |  RA-L  | Indoor + Outdoor                | O       |        | O   |     |        | O          | O       |  O    |    O    |       |       |     |                         |
 | [Hilti SLAM Dataset](https://hilti-challenge.com/)               | Hilti, Oxford, UZH     | 2022 | Hand     |    | Indoor + Outdoor                | O       | O      | O   |     |        | O          | O       |      |       |       |       |     |                         |
 | [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/)               | German Aerospace Center (DLR)      | 2021 | Handheld Rover-Mockup     | JFR  | Rough Terrain, Planetary analog   | O       |       | O   | O    |        |            | O      | O    |      |       |       |     | Stereo Cams + Stereo Omnidirectional Cameras; Navigation Benchmark |
