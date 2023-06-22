@@ -11,7 +11,12 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 We provide several category for each access of the data.
 
 ## News !! 
+## Update: 2023-06-20
+- Add 4Seasons
+- Add M2DGR
+- Add Tartanair
 
+  
 ## Update: 2022-8-15
 - Add VECtor Dataset
 
@@ -74,12 +79,16 @@ We provide several category for each access of the data.
     - [Indoor](#indoor): Indoor environment
     - [Terrain](#terrain): Forest, Rough terrain, underground, lake and farm
     - [Underwater](#underwater): Underwater floor, cave
+    - [Simulation](#simulation): Simulation Scene
 
 ## Overall datasets chart (Simplified Version)
 [Link to Full version](https://sites.google.com/view/awesome-slam-datasets/)
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [4Seasons Dataset](https://www.4seasons-dataset.com/) | Technical University of Munich| 2020 | Veh    |  GCPR  | Outdoor                | O       |   O     | O   |    O |        | O          | O       |  O    |    O    |       |       |     |    
+| [M2DGR](https://star-datasets.github.io/vector/) | Shanghai Jiaotong University | 2021 | Mob     |  RA-L  | Indoor + Outdoor                | O       |        | O   |   O  |        | O          | O       |  O    |    O    |       |       |     |   
+| [TartanAir](https://theairlab.org/tartanair-dataset/)               |    CMU    | 2020 | UAV       | IROS  | Simulation                | O       |   O    | O   |   |        |            |  O     |     | O     |       |       |     |  |
 | [VECtor Dataset](https://star-datasets.github.io/vector/) | ShanghaiTech University | 2022 | Hand     |  RA-L  | Indoor + Outdoor                | O       |        | O   |     |        | O          | O       |  O    |    O    |       |       |     |                         |
 | [Hilti SLAM Dataset](https://hilti-challenge.com/)               | Hilti, Oxford, UZH     | 2022 | Hand     |    | Indoor + Outdoor                | O       | O      | O   |     |        | O          | O       |      |       |       |       |     |                         |
 | [MADMAX Mars Dataset](https://rmc.dlr.de/morocco2018/)               | German Aerospace Center (DLR)      | 2021 | Handheld Rover-Mockup     | JFR  | Rough Terrain, Planetary analog   | O       |       | O   | O    |        |            | O      | O    |      |       |       |     | Stereo Cams + Stereo Omnidirectional Cameras; Navigation Benchmark |
@@ -443,6 +452,9 @@ _Underwater floor, cave_
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/)
 - [ACFR Marine Robotics Dataset](http://marine.acfr.usyd.edu.au/datasets/)
 
+### Simulation
+_Simulation Scene_
+- [TartanAir](https://theairlab.org/tartanair-dataset/)
 ## Contributing
 Please Feel free to send a [pull request](https://github.com/youngguncho/awesome-slam-datasets/pulls) to modify the list or add datasets.
 
