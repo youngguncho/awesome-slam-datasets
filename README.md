@@ -11,11 +11,13 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 We provide several category for each access of the data.
 
 ## News !! 
+## Update: 2024-4-18
+- Add VBR SLAM Dataset
+  
 ## Update: 2023-06-20
 - Add 4Seasons
 - Add M2DGR
 - Add Tartanair
-
   
 ## Update: 2022-8-15
 - Add VECtor Dataset
@@ -86,6 +88,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html) | Sapienza University of Rome| 2024 | Hand, Veh  | ICRA | Indoor + Outdoor | O  |  |O  |  |  |O  |O  |  |  |  |  |  |Stereo Cams; Multiple configuration; SLAM Benchmark  |
 | [4Seasons Dataset](https://www.4seasons-dataset.com/) | Technical University of Munich| 2020 | Veh    |  GCPR  | Outdoor                | O       |   O     | O   |    O |        | O          | O       |  O    |    O    |       |       |     |    
 | [M2DGR](https://star-datasets.github.io/vector/) | Shanghai Jiaotong University | 2021 | Mob     |  RA-L  | Indoor + Outdoor                | O       |        | O   |   O  |        | O          | O       |  O    |    O    |       |       |     |   
 | [TartanAir](https://theairlab.org/tartanair-dataset/)               |    CMU    | 2020 | UAV       | IROS  | Simulation                | O       |   O    | O   |   |        |            |  O     |     | O     |       |       |     |  |
@@ -168,6 +171,7 @@ _Evaluation methods for SLAM benchmarks_
 
 ### Odometry
 _Dataset for odometry Benchmark_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
@@ -218,7 +222,8 @@ _Dataset gives correspondences of places (images)_
 - [FABMAP Dataset](http://www.robots.ox.ac.uk/~mobile/IJRR_2008_Dataset/)
 
 ### Localization
-_Dataset for metric-level localization_
+_Dataset for metric-level localization
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [Cambridge Landmark Dataset](http://mi.eng.cam.ac.uk/projects/relocalisation/)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
@@ -242,6 +247,7 @@ _Dataset with semantic labels / correspondences_
 
 ### Large-scale
 _City-scale map, kilometer level Map_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [Complex Urban](https://sites.google.com/view/complex-urban-dataset)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
@@ -267,6 +273,7 @@ _Multi-session, long-term data collection_
 
 ### Map Complexity
 _Variation of mapping structures_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [Complex Urban](https://sites.google.com/view/complex-urban-dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
@@ -288,6 +295,7 @@ _Extreme environment, motions_
 
 ### Vehicle
 _Commercial Vehicle (Four-wheeled on the road)_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
@@ -354,6 +362,7 @@ _Water surface vehicle such as canoe and boat_
 
 ### Hand-held Device
 _Hand-held platform by human_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
 - [Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
@@ -372,7 +381,8 @@ _Hand-held platform by human_
 
 ## Categorized by Environment
 ### Urban
-_City, campus, town, and infrastructures_
+_City, campus, town, and infrastructures
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [ADVIO Dataset](https://github.com/AaltoVision/ADVIO)
 - [Stereo Plenoptic Dataset](https://www.hs-karlsruhe.de/odometry-data/)
@@ -406,6 +416,7 @@ _City, campus, town, and infrastructures_
 
 ### Indoor
 _Indoor environment_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [FMDataset](https://github.com/zhuzunjie17/FastFusion)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
@@ -430,6 +441,7 @@ _Indoor environment_
 
 ### Terrain
 _Rough terrain, underground, lake and farm_
+- [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [Rosario Agricultural Dataset](http://www.cifasis-conicet.gov.ar/robot/doku.php)
 - [Visual-Inertial Canoe Dataset](https://databank.illinois.edu/datasets/IDB-9342111)
