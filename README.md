@@ -10,7 +10,11 @@ This repository is the collection of SLAM-related datasets. Among various SLAM d
 
 We provide several category for each access of the data.
 
-## News !! 
+## News !!
+
+## Update: 2024-07-31
+- Add FusionPortable Series (V1: Campus-scene with diverse platforms, V2: From Campus to Highway, scalable environments.)
+
 ## Update: 2023-06-20
 - Add 4Seasons
 - Add M2DGR
@@ -51,35 +55,46 @@ We provide several category for each access of the data.
   - Syncity
 
 ## Category
-- [Evaluation](#evaluation)
-  - Evaluation Methods of SLAM
-- [Topic](#categorized-by-topic)
-  - [Odometry](#odometry): Dataset for odometry Benchmark
-  - [Mapping](#mapping): Dataset for mapping task
-  - [Place Recognition](#place-recognition): Dataset gives correspondences of places (images)
-  - [Localization](#localization): Dataset for metric-level localization
-  - [Perception](#perception): Dataset with semantic labels / correspondences
-
-- [Characteristics](#categorized-by-characteristics)
-  - [Large-scale](#large-scale): City-scale map, kilometer level Map
-  - [Long-term](#long-term): Multi-session, long-term data collection
-  - [Map Complexity](#map-complexity): Variation of mapping structures
-  - [Extreme Condition](#extreme-condition): Extreme environment, motions
-
-- [Platform](#categorized-by-platform)
-    - [Vehicle (Veh)](#vehicle): Commercial Vehicle (Four-wheeled on the road)
-    - [Mobile robot (Mob)](#mobile-robot): Mobile Robots (Ex. Husky, Rover.. )
-    - [Unmanned Aerial Vehicle (UAV)](#unmanned-aerial-vehicle): Unmanned aerial robots include drone.
-    - [Autonomous Underwater Vehicle (AUV)](#autonomous-underwater-vehicle): Underwater robots include ROV for simplicity.
-    - [Unmanned Surface Vehicle (USV)](#unmanned-surface-vehicle): Water surface vehicle such as canoe and boat.
-    - [Hand-held Device (Hand)](#hand-held-device): Hand-held platform by human
-
-- [Environment](#categorized-by-platform)
-    - [Urban](#urban): City, campus, town, and infrastructures
-    - [Indoor](#indoor): Indoor environment
-    - [Terrain](#terrain): Forest, Rough terrain, underground, lake and farm
-    - [Underwater](#underwater): Underwater floor, cave
-    - [Simulation](#simulation): Simulation Scene
+- [Awesome SLAM Datasets ](#awesome-slam-datasets-)
+  - [News !!](#news-)
+  - [Update: 2024-07-31](#update-2024-07-31)
+  - [Update: 2023-06-20](#update-2023-06-20)
+  - [Update: 2022-8-15](#update-2022-8-15)
+  - [Update: 2022-04-07](#update-2022-04-07)
+  - [Update: 2021-03-24](#update-2021-03-24)
+    - [Update: 2021-02-26](#update-2021-02-26)
+    - [Update: 2020-02-29](#update-2020-02-29)
+    - [Update: 2019-09-24](#update-2019-09-24)
+  - [TODO](#todo)
+  - [Category](#category)
+  - [Overall datasets chart (Simplified Version)](#overall-datasets-chart-simplified-version)
+  - [Evaluation](#evaluation)
+  - [Categorized By Topic](#categorized-by-topic)
+    - [Odometry](#odometry)
+    - [Mapping](#mapping)
+    - [Place Recognition](#place-recognition)
+    - [Localization](#localization)
+    - [Perception](#perception)
+  - [Categorized By Characteristics](#categorized-by-characteristics)
+    - [Large-scale](#large-scale)
+    - [Long-term](#long-term)
+    - [Map Complexity](#map-complexity)
+    - [Extreme Condition](#extreme-condition)
+  - [Categorized by Platform](#categorized-by-platform)
+    - [Vehicle](#vehicle)
+    - [Mobile Robot](#mobile-robot)
+    - [Unmanned Aerial Vehicle](#unmanned-aerial-vehicle)
+    - [Autonomous Underwater Vehicle](#autonomous-underwater-vehicle)
+    - [Unmanned Surface Vehicle](#unmanned-surface-vehicle)
+    - [Hand-held Device](#hand-held-device)
+  - [Categorized by Environment](#categorized-by-environment)
+    - [Urban](#urban)
+    - [Indoor](#indoor)
+    - [Terrain](#terrain)
+    - [Underwater](#underwater)
+    - [Simulation](#simulation)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Overall datasets chart (Simplified Version)
 [Link to Full version](https://sites.google.com/view/awesome-slam-datasets/)
@@ -168,6 +183,7 @@ _Evaluation methods for SLAM benchmarks_
 
 ### Odometry
 _Dataset for odometry Benchmark_
+- [FusionPortable](https://fusionportable.github.io/dataset/fusionportable/)
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
@@ -192,6 +208,7 @@ _Dataset for odometry Benchmark_
 - [VECtor Dataset](https://star-datasets.github.io/vector/)
 ### Mapping
 _Dataset for mapping task_
+- [FusionPortable](https://fusionportable.github.io/dataset/fusionportable/)
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [Complex Urban](https://sites.google.com/view/complex-urban-dataset)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
@@ -219,6 +236,7 @@ _Dataset gives correspondences of places (images)_
 
 ### Localization
 _Dataset for metric-level localization_
+- [FusionPortable](https://fusionportable.github.io/dataset/fusionportable/)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [Cambridge Landmark Dataset](http://mi.eng.cam.ac.uk/projects/relocalisation/)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
@@ -237,11 +255,13 @@ _Dataset with semantic labels / correspondences_
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/index.php)
 - [Multi-Sensor Perception (Marulan) Dataset ](http://sdi.acfr.usyd.edu.au/)
 - [InteriorNet](https://interiornet.org/)
+- [FusionPortableV2](https://fusionportable.github.io/dataset/fusionportable_v2/)
 
 ## Categorized By Characteristics
 
 ### Large-scale
 _City-scale map, kilometer level Map_
+- [FusionPortableV2](https://fusionportable.github.io/dataset/fusionportable_v2/)
 - [Complex Urban](https://sites.google.com/view/complex-urban-dataset)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
 - [Multi-modal Panoramic 3D Outdoor Dataset (MPO)](https://robotics.ait.kyushu-u.ac.jp/en/archives/research/db)
@@ -288,6 +308,7 @@ _Extreme environment, motions_
 
 ### Vehicle
 _Commercial Vehicle (Four-wheeled on the road)_
+- [FusionPortableV2 Dataset](https://fusionportable.github.io/dataset/fusionportable_v2/)
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [Complex Urban Dataset](https://sites.google.com/view/complex-urban-dataset/)
 - [Multi Vehicle Stereo Event Camera Dataset](https://docs.google.com/spreadsheets/d/1mudM7LxXv09ywuQGDp3t_RlIjIdwzg_ZaMu78agLmH4/edit#gid=0)
